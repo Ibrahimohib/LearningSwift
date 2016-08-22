@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDED7C5F1D6A710A0086FBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED7C5E1D6A710A0086FBFB /* AppDelegate.swift */; };
+		BDED7C611D6A710A0086FBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED7C601D6A710A0086FBFB /* ViewController.swift */; };
+		BDED7C641D6A710A0086FBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDED7C621D6A710A0086FBFB /* Main.storyboard */; };
+		BDED7C661D6A710A0086FBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDED7C651D6A710A0086FBFB /* Assets.xcassets */; };
+		BDED7C691D6A710A0086FBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDED7C671D6A710A0086FBFB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDED7C5B1D6A710A0086FBFB /* Times Tables with Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Times Tables with Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDED7C5E1D6A710A0086FBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDED7C601D6A710A0086FBFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDED7C631D6A710A0086FBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDED7C651D6A710A0086FBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDED7C681D6A710A0086FBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDED7C6A1D6A710A0086FBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDED7C581D6A710A0086FBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDED7C521D6A710A0086FBFB = {
+			isa = PBXGroup;
+			children = (
+				BDED7C5D1D6A710A0086FBFB /* Times Tables with Slider */,
+				BDED7C5C1D6A710A0086FBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDED7C5C1D6A710A0086FBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDED7C5B1D6A710A0086FBFB /* Times Tables with Slider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDED7C5D1D6A710A0086FBFB /* Times Tables with Slider */ = {
+			isa = PBXGroup;
+			children = (
+				BDED7C5E1D6A710A0086FBFB /* AppDelegate.swift */,
+				BDED7C601D6A710A0086FBFB /* ViewController.swift */,
+				BDED7C621D6A710A0086FBFB /* Main.storyboard */,
+				BDED7C651D6A710A0086FBFB /* Assets.xcassets */,
+				BDED7C671D6A710A0086FBFB /* LaunchScreen.storyboard */,
+				BDED7C6A1D6A710A0086FBFB /* Info.plist */,
+			);
+			path = "Times Tables with Slider";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDED7C5A1D6A710A0086FBFB /* Times Tables with Slider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDED7C6D1D6A710A0086FBFB /* Build configuration list for PBXNativeTarget "Times Tables with Slider" */;
+			buildPhases = (
+				BDED7C571D6A710A0086FBFB /* Sources */,
+				BDED7C581D6A710A0086FBFB /* Frameworks */,
+				BDED7C591D6A710A0086FBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Times Tables with Slider";
+			productName = "Times Tables with Slider";
+			productReference = BDED7C5B1D6A710A0086FBFB /* Times Tables with Slider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDED7C531D6A710A0086FBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mohib Ibrahim";
+				TargetAttributes = {
+					BDED7C5A1D6A710A0086FBFB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDED7C561D6A710A0086FBFB /* Build configuration list for PBXProject "Times Tables with Slider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDED7C521D6A710A0086FBFB;
+			productRefGroup = BDED7C5C1D6A710A0086FBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDED7C5A1D6A710A0086FBFB /* Times Tables with Slider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDED7C591D6A710A0086FBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDED7C691D6A710A0086FBFB /* LaunchScreen.storyboard in Resources */,
+				BDED7C661D6A710A0086FBFB /* Assets.xcassets in Resources */,
+				BDED7C641D6A710A0086FBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDED7C571D6A710A0086FBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDED7C611D6A710A0086FBFB /* ViewController.swift in Sources */,
+				BDED7C5F1D6A710A0086FBFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDED7C621D6A710A0086FBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDED7C631D6A710A0086FBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDED7C671D6A710A0086FBFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDED7C681D6A710A0086FBFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDED7C6B1D6A710A0086FBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDED7C6C1D6A710A0086FBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDED7C6E1D6A710A0086FBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Times Tables with Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mibrahim.Times-Tables-with-Slider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDED7C6F1D6A710A0086FBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Times Tables with Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mibrahim.Times-Tables-with-Slider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDED7C561D6A710A0086FBFB /* Build configuration list for PBXProject "Times Tables with Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDED7C6B1D6A710A0086FBFB /* Debug */,
+				BDED7C6C1D6A710A0086FBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDED7C6D1D6A710A0086FBFB /* Build configuration list for PBXNativeTarget "Times Tables with Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDED7C6E1D6A710A0086FBFB /* Debug */,
+				BDED7C6F1D6A710A0086FBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDED7C531D6A710A0086FBFB /* Project object */;
+}
